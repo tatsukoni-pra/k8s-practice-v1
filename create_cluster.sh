@@ -6,8 +6,8 @@ eksctl create cluster \
   --version 1.29 \
   --nodegroup-name eks-work-nodegroup \
   --node-type t2.small \
-  --nodes 2 \
-  --nodes-min 2 \
-  --nodes-max 3 \
+  --nodes 1 \
+  --nodes-min 1 \
+  --nodes-max 1 \
   --vpc-public-subnets subnet-0043c72cfb2b9bc77,subnet-0b59531acff265d5d \
   --profile tatsukoni
